@@ -1,5 +1,7 @@
 package net.ethantianyu.jamsgalore;
 
+import net.ethantianyu.jamsgalore.item.ModItemGroups;
+import net.ethantianyu.jamsgalore.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +13,7 @@ public class JamsGalore implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemgroups();
+		ModItems.registerModItems();
 	}
 }
