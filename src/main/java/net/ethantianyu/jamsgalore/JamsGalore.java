@@ -1,5 +1,6 @@
 package net.ethantianyu.jamsgalore;
 
+import net.ethantianyu.jamsgalore.effect.ModEffects;
 import net.ethantianyu.jamsgalore.item.ModItemGroups;
 import net.ethantianyu.jamsgalore.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class JamsGalore implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemgroups();
 		ModItems.registerModItems();
+		ModEffects.registerEffects();
 	}
 }
