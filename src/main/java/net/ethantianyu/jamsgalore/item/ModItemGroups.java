@@ -1,6 +1,7 @@
 package net.ethantianyu.jamsgalore.item;
 
 import net.ethantianyu.jamsgalore.JamsGalore;
+import net.ethantianyu.jamsgalore.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LEAF)).entries((displayContext, entries) -> {
                         entries.add(ModItems.JAR);
                         entries.add(ModItems.LEAF);
+                        entries.add(ModBlocks.GREAT_OAK_LOG);
 
                     }).build());
 
