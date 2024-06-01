@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JAR);
                         entries.add(ModItems.LEAF);
                         entries.add(ModBlocks.LEAF_BLOCK);
+                        entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());
 
