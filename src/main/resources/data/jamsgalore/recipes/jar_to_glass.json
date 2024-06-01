@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jamsgalore:jar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glass",
+    "count": 5
+  }
+}

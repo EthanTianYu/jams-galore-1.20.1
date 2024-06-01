@@ -17,7 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LEAF)).entries((displayContext, entries) -> {
                         entries.add(ModItems.JAR);
                         entries.add(ModItems.LEAF);
-                        entries.add(ModBlocks.GREAT_OAK_LOG);
+                        entries.add(ModBlocks.GUTTER_BLOCK);
 
                     }).build());
 

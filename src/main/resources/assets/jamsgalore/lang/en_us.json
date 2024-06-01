@@ -1,8 +1,7 @@
 {
   "item.jamsgalore.jar": "Glass Jar",
   "item.jamsgalore.leaf": "Rhubarb Leaf",
-  "effect.jamsgalore.test": "Test",
-  "block.jamsgalore.great_oak_log": "Great Oak Log"
 
+  "block.jamsgalore.gutter_block": "Gutter Block"
 
 }
