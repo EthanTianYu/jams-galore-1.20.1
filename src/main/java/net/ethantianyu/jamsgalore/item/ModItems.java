@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item JAR = registerItem("jar", new Item(new FabricItemSettings()));
     public static final Item LEAF = registerItem("leaf", new Item(new FabricItemSettings()));
+    public static final Item LEMON = registerItem("lemon", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON)));
+    public static final Item LEMON_PIE = registerItem("lemon_pie", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON_PIE)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 

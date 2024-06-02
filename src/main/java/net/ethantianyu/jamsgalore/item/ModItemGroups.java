@@ -19,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.LEAF);
                         entries.add(ModBlocks.LEAF_BLOCK);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.LEMON);
+                        entries.add(ModItems.LEMON_PIE);
 
                     }).build());
 

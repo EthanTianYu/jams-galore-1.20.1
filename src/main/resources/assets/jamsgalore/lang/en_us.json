@@ -2,7 +2,10 @@
   "item.jamsgalore.jar": "Glass Jar",
   "item.jamsgalore.leaf": "Rhubarb Leaf",
   "item.jamsgalore.metal_detector": "Metal Detector",
+  "item.jamsgalore.lemon": "Lemon",
+  "item.jamsgalore.lemon_pie": "Lemon Pie",
 
-  "block.jamsgalore.leaf_block": "Leaf Block"
+  "block.jamsgalore.leaf_block": "Leaf Block",
+  "block.jamsgalore.sound_block": "Sound Block"
 
 }

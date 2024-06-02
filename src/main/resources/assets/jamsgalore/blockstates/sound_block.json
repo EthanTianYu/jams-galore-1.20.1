@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "jamsgalore:block/sound_block"
+    }
+  }
+}
