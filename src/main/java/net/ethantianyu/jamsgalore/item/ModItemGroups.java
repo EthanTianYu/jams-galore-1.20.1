@@ -21,7 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModItems.LEMON);
-                        entries.add(ModItems.LEMON_PIE);
+                        entries.add(ModItems.LEMON_PIE_SLICE);
 
                     }).build());
 
