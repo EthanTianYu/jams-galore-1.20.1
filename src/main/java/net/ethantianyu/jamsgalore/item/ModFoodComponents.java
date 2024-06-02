@@ -7,6 +7,6 @@ import net.minecraft.item.FoodComponent;
 public class ModFoodComponents {
     public static final FoodComponent LEMON = new FoodComponent.Builder().hunger(3).saturationModifier(1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200), 0.25f).build();
-    public static final FoodComponent LEMON_PIE_SLICE = new FoodComponent.Builder().hunger(8).saturationModifier(10f)
+    public static final FoodComponent LEMON_MUFFIN = new FoodComponent.Builder().hunger(8).saturationModifier(10f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 500), 1f).build();
 }
