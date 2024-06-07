@@ -7,6 +7,10 @@
   "item.jamsgalore.manchineel_apple": "Manchineel Apple",
 
   "block.jamsgalore.leaf_block": "Leaf Block",
-  "block.jamsgalore.sound_block": "Sound Block"
+  "block.jamsgalore.sound_block": "Sound Block",
+
+  "effect.jamsgalore.freeze": "Freeze",
+  "effect.jamsgalore.arrhythmia": "Arrhythmia",
+  "effect.jamsgalore.dyspnea": "Dyspnea"
 
 }
