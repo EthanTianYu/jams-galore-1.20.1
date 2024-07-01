@@ -13,6 +13,7 @@ public class ModEffects {
     public static final StatusEffect FREEZE = new FreezeEffect(StatusEffectCategory.HARMFUL, 312187);
     public static final StatusEffect ARRHYTHMIA = new ArrhythmiaEffect(StatusEffectCategory.HARMFUL, 312187);
     public static final StatusEffect DYSPNEA = new DyspneaEffect(StatusEffectCategory.HARMFUL, 312187);
+    public static final StatusEffect PHOTOSENSITIVITY = new PhotosensitivityEffect(StatusEffectCategory.HARMFUL, 911111);
 
     public static StatusEffect registerStatusEffect(String name, StatusEffect effect) {
         return Registry.register(Registries.STATUS_EFFECT, new Identifier(JamsGalore.MOD_ID, name), effect);
@@ -23,6 +24,7 @@ public class ModEffects {
        registerStatusEffect("freeze", FREEZE);
        registerStatusEffect("arrhythmia", ARRHYTHMIA);
        registerStatusEffect("dyspnea", DYSPNEA);
+       registerStatusEffect("photosensitivity", PHOTOSENSITIVITY);
     }
 
 

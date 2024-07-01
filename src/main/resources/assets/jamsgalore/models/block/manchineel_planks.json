@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jamsgalore:block/manchineel_planks"
+  }
+}

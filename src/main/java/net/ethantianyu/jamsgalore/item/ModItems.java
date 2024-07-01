@@ -13,16 +13,17 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item JAR = registerItem("jar", new Item(new FabricItemSettings()));
-    public static final Item LEAF = registerItem("leaf", new Item(new FabricItemSettings()));
     public static final Item LEMON = registerItem("lemon", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON)));
     public static final Item LEMON_MUFFIN = registerItem("lemon_muffin", new Item(new FabricItemSettings().food(ModFoodComponents.LEMON_MUFFIN)));
     public static final Item MANCHINEEL_APPLE = registerItem("manchineel_apple", new Item(new FabricItemSettings().food(ModFoodComponents.MANCHINEEL_APPLE)));
+    public static final Item RASPBERRY = registerItem("raspberry", new Item(new FabricItemSettings().food(ModFoodComponents.RASPBERRY)));
+    public static final Item RHUBARB = registerItem("rhubarb", new Item(new FabricItemSettings().food(ModFoodComponents.RHUBARB)));
+    public static final Item RASPBERRY_MUFFIN = registerItem("raspberry_muffin", new Item(new FabricItemSettings().food(ModFoodComponents.RASPBERRY_MUFFIN)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(JAR);
-        entries.add(LEAF);
     }
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(JamsGalore.MOD_ID, name), item);

@@ -4,8 +4,8 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 
-public class DyspneaEffect extends StatusEffect {
-    public DyspneaEffect(StatusEffectCategory statusEffectCategory, int color) {
+public class PhotosensitivityEffect extends StatusEffect {
+    public PhotosensitivityEffect(StatusEffectCategory statusEffectCategory, int color) {
         super(statusEffectCategory, color);
 
     }
@@ -13,14 +13,14 @@ public class DyspneaEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity pLivingEntity, int pAmplifier) {
         if(!pLivingEntity.getWorld().isClient()) {
-            if(pLivingEntity.isAlive()){
-                float air = pLivingEntity.getAir();
-                int health = (int)pLivingEntity.getHealth();
-                if(air > 1) if (health > 1) {
-                    pLivingEntity.damage(pLivingEntity.getDamageSources().drown(), (float)0.2);
-                    pLivingEntity.setAir(0);
-                } else {
-                    pLivingEntity.setOnFire(false);
+            if(pLivingEntity.getWorld().isDay()){
+                if(pLivingEntity.getWorld().isSkyVisible(pLivingEntity.getBlockPos())){
+                    if(!pLivingEntity.isTouchingWater()){
+                        pLivingEntity.setOnFire(true);
+                        pLivingEntity.damage(pLivingEntity.getDamageSources().inFire(), (float)0.5);
+
+                    }
+
                 }
             }
 

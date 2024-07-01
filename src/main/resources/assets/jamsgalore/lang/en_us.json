@@ -1,16 +1,19 @@
 {
   "item.jamsgalore.jar": "Glass Jar",
-  "item.jamsgalore.leaf": "Rhubarb Leaf",
   "item.jamsgalore.metal_detector": "Metal Detector",
   "item.jamsgalore.lemon": "Lemon",
   "item.jamsgalore.lemon_muffin": "Lemon Muffin",
   "item.jamsgalore.manchineel_apple": "Manchineel Apple",
+  "item.jamsgalore.raspberry": "Raspberry",
+  "item.jamsgalore.raspberry_muffin": "Raspberry Muffin",
+  "item.jamsgalore.rhubarb": "Rhubarb",
 
   "block.jamsgalore.leaf_block": "Leaf Block",
   "block.jamsgalore.sound_block": "Sound Block",
 
   "effect.jamsgalore.freeze": "Freeze",
   "effect.jamsgalore.arrhythmia": "Arrhythmia",
-  "effect.jamsgalore.dyspnea": "Dyspnea"
+  "effect.jamsgalore.dyspnea": "Dyspnea",
+  "effect.jamsgalore.photosensitivity": "Photosensitivity"
 
 }
